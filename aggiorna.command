@@ -15,5 +15,5 @@ npx --yes staticrypt index.src.html -p "$PASSWORD" --short --remember 30 \
 cp /tmp/lux-enc/index.src.html index.html
 git add index.html
 git commit -m "deploy $(date '+%Y-%m-%d %H:%M')" >/dev/null 2>&1 || true
-git push --quiet
+git push --quiet origin main
 echo "Fatto → https://lazulipsd.github.io/casa-luxardo-crew-schedule/"
