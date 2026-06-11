@@ -1,0 +1,5 @@
+index.src.html
+.staticrypt.json
+.last_build_hash
+node_modules/
+*.log
