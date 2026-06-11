@@ -5,8 +5,9 @@ PASSWORD="maraschinorules"
 echo "Cifratura..."
 rm -rf /tmp/lux-enc
 npx --yes staticrypt index.src.html -p "$PASSWORD" --short --remember 30 \
+  --template ./staticrypt-template.html \
   --template-title 'Casa Luxardo · Production Schedule' \
-  --template-instructions 'Inserisci la password per accedere alla scaletta.' \
+  --template-instructions 'Inserisci la password per accedere alla scaletta di produzione.' \
   --template-button 'Entra' --template-placeholder 'Password' \
   --template-error 'Password errata. Riprova.' \
   --template-remember 'Ricordami su questo dispositivo' \

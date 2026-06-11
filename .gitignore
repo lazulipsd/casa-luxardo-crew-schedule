@@ -3,3 +3,4 @@ index.src.html
 .last_build_hash
 node_modules/
 *.log
+staticrypt-template.html
